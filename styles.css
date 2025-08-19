@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: 	#000000;
+ }
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #A0A0A0;
+}
+
+
+section {
+    padding-bottom: 5rem;
+}
+
+
+.nav-link {
+    color: #000000;
+    font-weight: 600;
+}
+.inicio-fundo {
+  background: linear-gradient(135deg, #1e1e1e, #3a0c11);
+  border-radius: 30px;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.conteudo-esquerdo {
+  background-color: #3a0c11;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.integrantes {
+  background-color: rgb(46, 2, 60);
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  color: rgb(250, 245, 245);
+}
+
+.botao-inicio {
+  background-color: var(--laranja-claro);
+  border-radius: 30px;
+  border: none;
+  width: 29em;
+  height: 3em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  line-height: 2em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.integrante p {
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#chase atlantic {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
+    background-size: 180px 180px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#chase atlantic .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+    background-color: #A0A0A0;
+
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color:  	#8C1C13;
+    padding: 2rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px 		#000000;
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color:  #0a0a0a;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: 		#A0A0A0;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
+.rotacao-botao{
+        background-color:  	#000000;
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+        background-color:  	#000000;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+        background-color:  	#000000;
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
+}
